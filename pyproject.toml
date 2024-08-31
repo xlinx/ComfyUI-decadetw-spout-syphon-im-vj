@@ -1,9 +1,9 @@
 [project]
 name = "comfyui-decadetw-spout-syphon-im-vj"
-description = "I'm SD-VJ. (share SD-generating-process in realtime by gpu)"
-version = "1.0.0"
+description = "I'm SD-VJ. (SD-Image share/receive to/from 3rd software using OpenGL GPU-memory-share)"
+version = "1.20240830.0"
 license = {file = "LICENSE"}
-dependencies = ["numpy", "SpoutGL", "OpenGL_accelerate"]
+dependencies = ["numpy", "PyOpenGL", "PyOpenGL_accelerate"]
 
 [project.urls]
 Repository = "https://github.com/xlinx/ComfyUI-decadetw-spout-syphon-im-vj"
@@ -12,4 +12,4 @@ Repository = "https://github.com/xlinx/ComfyUI-decadetw-spout-syphon-im-vj"
 [tool.comfy]
 PublisherId = ""
 DisplayName = "ComfyUI-decadetw-spout-syphon-im-vj"
-Icon = ""
+Icon = "https://www.decade.tw/wp-content/uploads/2021/09/cropped-DECADE512-150x150.png"
