@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-decadetw-spout-syphon-im-vj"
+description = "I'm SD-VJ. (share SD-generating-process in realtime by gpu)"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy", "SpoutGL", "OpenGL_accelerate"]
+
+[project.urls]
+Repository = "https://github.com/xlinx/ComfyUI-decadetw-spout-syphon-im-vj"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-decadetw-spout-syphon-im-vj"
+Icon = ""
