@@ -1,7 +1,7 @@
 ### Quick Links
 * I'm SD-VJ. (share SD-generating-process in realtime by gpu) 
-    * https://github.com/xlinx/sd-webui-decadetw-spout-syphon-im-vj
-    * https://github.com/xlinx/ComfyUI-decadetw-spout-syphon-im-vj
+    * SD-WEB-UI: https://github.com/xlinx/sd-webui-decadetw-spout-syphon-im-vj
+    * ComfyUI:   https://github.com/xlinx/ComfyUI-decadetw-spout-syphon-im-vj
 * Auto prompt by LLM and LLM-Vision (Trigger more details out inside model) 
     * SD-WEB-UI: https://github.com/xlinx/sd-webui-decadetw-auto-prompt-llm
     * ComfyUI:   https://github.com/xlinx/ComfyUI-decadetw-auto-prompt-llm
@@ -46,17 +46,33 @@
   * [add|202400822] | 🟢 spout support
   * [add|2024008xx] | 🟠 syphon support
   * [add|2024008xx] | 🟠 ofxNDI
-  
+  * 🟢 SD-Image(latent space) -> Spout(win)|(mac)Syphon -> GPU Memory -> Other Software (Ultra-fast-access)
+  * 🟠 SD-Inpainting use <- GPU Memory <- Spout(win)|(mac)Syphon <- Other Software
 
 ## Motivation💡
+* Live Performances & ...and show control cues.
+  * QLab https://qlab.app/
+  * vjdj | madmapper | processing | JAVA ....etc.,
+  * https://madmapper.com/
+  * https://processing.org/
+
 * Enjoy ur party or project 
 * I'm VJ(Visual Jockey)
 * Interface, middle-ware between SD and Spout lib (https://spoutgl-site.netlify.app/#CClass:Spout)
 * SD-Image to OpenGL in realtime 
 
-## Usage 
+##  Web-UI | Forge | ComfyUI preview
+<table style="border-width:0px" >
+<tr>
+    <td>
+        <img width=90% src="images/webui_imDJ.png" alt=""/>
+    </td>
+    <td>
+       <img width=90% src="images/comfyui_spout_syphon_workflow.png" alt=""/>
+    </td>
+ </tr>
+</table>
 
-<img width=90% src="images/comfyui_spout_syphon_workflow.png" alt=""/>
 <table style="border-width:0px" >
 <tr>
     <td>
@@ -68,17 +84,22 @@
  </tr>
  <tr>
     <td> 
-        <b style="font-size:20px">SD-Image to Spout</b> 
+        <b style="font-size:30px">Spout / Win </b> 
         <hr/>
-        <b style="font-size:14px">@Win using Spout</b>
+        <li style="font-size:14px">Tx </li>
+            <li style="font-size:14px; text-indent: 1em;">SD-Image -> 3rd software</li>
+        <li style="font-size:14px">Rx </li>
+        <li style="font-size:14px; text-indent: 1em;">3rd software (maybe webcam) -> SD-Img2Img</li>
     </td>
     <td>
-        <img width="400" src="images/comfyui_spout_win.png" alt=""/>
+        <img width="700" src="images/web-ui-user.png" alt=""/>
+            <hr/>
+        <img width="700" src="images/comfyui_spout_win.png" alt=""/>
     </td>
  </tr>
  <tr>
     <td> 
-        <b style="font-size:20px">SD-Image to Syphon</b> 
+        <b style="font-size:20px">Syphon / Mac</b> 
         <hr/>
         <b style="font-size:14px">@Mac using Syphon (later. finding M series mac ing...)</b>
     </td>
