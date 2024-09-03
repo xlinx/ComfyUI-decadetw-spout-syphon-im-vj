@@ -11,6 +11,7 @@
 * CivitAI Info|discuss:
   * https://civitai.com/articles/6988/extornode-using-llm-trigger-more-detail-that-u-never-thought
   * https://civitai.com/articles/6989/extornode-sd-image-auto-msg-to-u-mobile-realtime
+  * https://civitai.com/articles/7090/share-sd-img-to-3rd-software-gpu-share-memory-realtime-spout-or-syphon
 <hr/>
 
 # SD-WEB-UI | ComfyUI | decadetw-spout-syphon-im-vj
